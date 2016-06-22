@@ -4,7 +4,7 @@ Basic item scroll view supports horizontal and vertical directions
 
 ## Screenshot
 
-<img src="https://github.com/shkimturf/HIUIItemScrollView/blob/master/preview_top.gif" width="250" />
+<img src="https://github.com/shkimturf/HIUIItemScrollView/blob/master/preview.gif" width="250" />
 
 ## Environments
 
@@ -19,7 +19,6 @@ Just import **HIUIItemScrollView** source files to your project.
 ### HIUIScrollView
 
 * HIUIItemScrollView supports to reuse HIUIGridTile. If one of HIUIGridTile scrolls to over displaying screen, it will remove.
-* **drawingPadding** means calculated display padding over the view. It uses when reuse HIUIGridTile.
 
 ``` objc
     var tile : SampleTile? = scrollView.dequeueReusableTileWithIdentifier(SampleTile.reuseIdentifier()) as? SampleTile
@@ -27,6 +26,8 @@ Just import **HIUIItemScrollView** source files to your project.
         tile = SampleTile(frame: CGRectZero)
     }
 ```
+
+* **drawingPadding** means calculated display padding over the view. It uses when reuse HIUIGridTile.
 
 ### Layout Manager
 
