@@ -13,6 +13,15 @@
 		1EE04CC81D1AEF9B003F6EBE /* HIUIItemScrollViewSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CC61D1AEF9B003F6EBE /* HIUIItemScrollViewSample.xcdatamodeld */; };
 		1EE04CCA1D1AEF9B003F6EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04CC91D1AEF9B003F6EBE /* Assets.xcassets */; };
 		1EE04CCD1D1AEF9B003F6EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04CCB1D1AEF9B003F6EBE /* LaunchScreen.storyboard */; };
+		1EE04CDD1D1AEFDB003F6EBE /* HIUIGridItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CD61D1AEFDB003F6EBE /* HIUIGridItem.swift */; };
+		1EE04CDE1D1AEFDB003F6EBE /* HIUIGridLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CD71D1AEFDB003F6EBE /* HIUIGridLayoutManager.swift */; };
+		1EE04CDF1D1AEFDB003F6EBE /* HIUIGridTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CD81D1AEFDB003F6EBE /* HIUIGridTile.swift */; };
+		1EE04CE01D1AEFDB003F6EBE /* HIUIGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CD91D1AEFDB003F6EBE /* HIUIGridView.swift */; };
+		1EE04CE11D1AEFDB003F6EBE /* HIUIItemScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CDA1D1AEFDB003F6EBE /* HIUIItemScrollView.swift */; };
+		1EE04CE21D1AEFDB003F6EBE /* HIUIItemScrollViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CDB1D1AEFDB003F6EBE /* HIUIItemScrollViewDataSource.swift */; };
+		1EE04CE31D1AEFDB003F6EBE /* HIUIItemScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CDC1D1AEFDB003F6EBE /* HIUIItemScrollViewDelegate.swift */; };
+		1EE04CEB1D1AF025003F6EBE /* SampleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CEA1D1AF025003F6EBE /* SampleTile.swift */; };
+		1EE04CED1D1AF02D003F6EBE /* SampleLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CEC1D1AF02D003F6EBE /* SampleLayoutManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		1EE04CC91D1AEF9B003F6EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE04CCC1D1AEF9B003F6EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EE04CCE1D1AEF9B003F6EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE04CD61D1AEFDB003F6EBE /* HIUIGridItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIUIGridItem.swift; sourceTree = "<group>"; };
+		1EE04CD71D1AEFDB003F6EBE /* HIUIGridLayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIUIGridLayoutManager.swift; sourceTree = "<group>"; };
+		1EE04CD81D1AEFDB003F6EBE /* HIUIGridTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIUIGridTile.swift; sourceTree = "<group>"; };
+		1EE04CD91D1AEFDB003F6EBE /* HIUIGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIUIGridView.swift; sourceTree = "<group>"; };
+		1EE04CDA1D1AEFDB003F6EBE /* HIUIItemScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIUIItemScrollView.swift; sourceTree = "<group>"; };
+		1EE04CDB1D1AEFDB003F6EBE /* HIUIItemScrollViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIUIItemScrollViewDataSource.swift; sourceTree = "<group>"; };
+		1EE04CDC1D1AEFDB003F6EBE /* HIUIItemScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIUIItemScrollViewDelegate.swift; sourceTree = "<group>"; };
+		1EE04CEA1D1AF025003F6EBE /* SampleTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleTile.swift; path = HIUIItemScrollViewSample/SampleTile.swift; sourceTree = SOURCE_ROOT; };
+		1EE04CEC1D1AF02D003F6EBE /* SampleLayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleLayoutManager.swift; path = HIUIItemScrollViewSample/SampleLayoutManager.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 		1EE04CBE1D1AEF9B003F6EBE /* HIUIItemScrollViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				1EE04CD41D1AEFDB003F6EBE /* libs */,
 				1EE04CBF1D1AEF9B003F6EBE /* AppDelegate.swift */,
 				1EE04CC11D1AEF9B003F6EBE /* ViewController.swift */,
 				1EE04CC31D1AEF9B003F6EBE /* Main.storyboard */,
@@ -65,6 +84,46 @@
 				1EE04CC61D1AEF9B003F6EBE /* HIUIItemScrollViewSample.xcdatamodeld */,
 			);
 			path = HIUIItemScrollViewSample;
+			sourceTree = "<group>";
+		};
+		1EE04CD41D1AEFDB003F6EBE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04CD51D1AEFDB003F6EBE /* HIUIItemScrollView */,
+				1EE04CE51D1AEFF8003F6EBE /* layout manager */,
+				1EE04CE41D1AEFEA003F6EBE /* tile */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		1EE04CD51D1AEFDB003F6EBE /* HIUIItemScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04CD61D1AEFDB003F6EBE /* HIUIGridItem.swift */,
+				1EE04CD71D1AEFDB003F6EBE /* HIUIGridLayoutManager.swift */,
+				1EE04CD81D1AEFDB003F6EBE /* HIUIGridTile.swift */,
+				1EE04CD91D1AEFDB003F6EBE /* HIUIGridView.swift */,
+				1EE04CDA1D1AEFDB003F6EBE /* HIUIItemScrollView.swift */,
+				1EE04CDB1D1AEFDB003F6EBE /* HIUIItemScrollViewDataSource.swift */,
+				1EE04CDC1D1AEFDB003F6EBE /* HIUIItemScrollViewDelegate.swift */,
+			);
+			path = HIUIItemScrollView;
+			sourceTree = "<group>";
+		};
+		1EE04CE41D1AEFEA003F6EBE /* tile */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04CEA1D1AF025003F6EBE /* SampleTile.swift */,
+			);
+			name = tile;
+			sourceTree = "<group>";
+		};
+		1EE04CE51D1AEFF8003F6EBE /* layout manager */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04CEC1D1AF02D003F6EBE /* SampleLayoutManager.swift */,
+			);
+			name = "layout manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE04CE01D1AEFDB003F6EBE /* HIUIGridView.swift in Sources */,
+				1EE04CE21D1AEFDB003F6EBE /* HIUIItemScrollViewDataSource.swift in Sources */,
+				1EE04CEB1D1AF025003F6EBE /* SampleTile.swift in Sources */,
+				1EE04CED1D1AF02D003F6EBE /* SampleLayoutManager.swift in Sources */,
 				1EE04CC21D1AEF9B003F6EBE /* ViewController.swift in Sources */,
+				1EE04CDE1D1AEFDB003F6EBE /* HIUIGridLayoutManager.swift in Sources */,
+				1EE04CE31D1AEFDB003F6EBE /* HIUIItemScrollViewDelegate.swift in Sources */,
+				1EE04CE11D1AEFDB003F6EBE /* HIUIItemScrollView.swift in Sources */,
+				1EE04CDF1D1AEFDB003F6EBE /* HIUIGridTile.swift in Sources */,
+				1EE04CDD1D1AEFDB003F6EBE /* HIUIGridItem.swift in Sources */,
 				1EE04CC81D1AEF9B003F6EBE /* HIUIItemScrollViewSample.xcdatamodeld in Sources */,
 				1EE04CC01D1AEF9B003F6EBE /* AppDelegate.swift in Sources */,
 			);
@@ -290,6 +358,7 @@
 				1EE04CD31D1AEF9B003F6EBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
